@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Arsenal FC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -11,25 +12,29 @@
         <nav>
             <a href="index.html">Головна</a> |
             <a href="pages/gallery.html">Галерея</a> |
-            <a href="pages/contact.html">Контакти</a>
+            <a href="pages/contact.html">Про клуб</a>
         </nav>
-        <hr>
     </header>
 
     <main>
-        <section>
-            <img src="photo/arsenal-logo.svg" alt="Arsenal FC логотип" width="200">
+        <section id="intro">
+            <img id="club-logo" src="photo/arsenal-logo.svg" alt="Arsenal FC логотип" width="160">
 
             <h2>Про клуб</h2>
             <p>
                 <strong>Arsenal FC</strong> — англійський професійний футбольний клуб із Лондона,
                 що виступає у Прем'єр-лізі. Один із найтитулованіших клубів Англії.
             </p>
+
+            <p class="highlight">
+                Arsenal — єдиний клуб у Прем'єр-лізі, який провів цілий сезон
+                <strong>без жодної поразки</strong> (2003–04, «Невразливі»).
+            </p>
         </section>
 
-        <section>
+        <section id="info">
             <h2>Коротка інформація</h2>
-            <table border="1" cellpadding="8">
+            <table>
                 <tr>
                     <td><strong>Повна назва</strong></td>
                     <td>Arsenal Football Club</td>
@@ -61,19 +66,18 @@
             </table>
         </section>
 
-        <section>
+        <section id="facts">
             <h2>Цікаві факти</h2>
             <ul>
-                <li>Arsenal — єдиний клуб у Прем'єр-лізі, який провів цілий сезон <strong>без жодної поразки</strong> (2003–04, «Невразливі»).</li>
                 <li>Клуб виграв <strong>13 чемпіонатів Англії</strong> та <strong>14 Кубків FA</strong> — рекорд за кількістю перемог у цьому турнірі.</li>
                 <li>Emirates Stadium відкрито у <strong>2006 році</strong> і є одним із найбільших стадіонів Англії.</li>
                 <li>Легендарний нападник <strong>Тьєррі Анрі</strong> — найкращий бомбардир в історії клубу (228 голів).</li>
-                <li>Arsenal першим у Англії встановив <strong>дах на стадіоні з підігрівом поля</strong> та першим почав трансляції матчів по телебаченню.</li>
+                <li>Arsenal першим у Англії почав <strong>трансляції матчів по телебаченню</strong> (1937 рік).</li>
                 <li>Клуб розташований у районі <strong>Холлоуей, Ізлінгтон</strong> — один із найвідоміших футбольних адрес Лондона.</li>
             </ul>
         </section>
 
-        <section>
+        <section id="titles">
             <h2>Титули</h2>
             <ol>
                 <li>Чемпіонат Англії / Прем'єр-ліга — <strong>13 разів</strong></li>
@@ -85,7 +89,6 @@
         </section>
     </main>
 
-    <hr>
     <footer>
         <p>&copy; 2026 Arsenal FC Fan Page. Усі права захищено.</p>
     </footer>
